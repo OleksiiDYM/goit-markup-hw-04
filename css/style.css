@@ -263,6 +263,14 @@ body {
         gap: 10px;
         justify-content: center;
     }
+    .soc-link:hover,
+    .soc-link:focus {
+        background-color: var(--button-color);
+    }
+    .soc-link:hover .soc-link,
+    .soc-link:focus .soc-link {
+
+    }
         /* ---------TEAM---------- */
         /* ---------FOOTER---------- */
     .footer-logoleft {
