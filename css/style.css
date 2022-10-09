@@ -250,11 +250,15 @@ body {
         width: 44px;
         height: 44px;
         border-radius: 50%;
-        background-color: tomato;
         display: flex;
         align-items: center;
         justify-content: center;
+        color: #FFFFFF;
     }
+    .soc-icon {
+        fill: currentColor;
+    }
+        
     .soc-list {
         display: flex;
         align-items: center;
@@ -263,14 +267,11 @@ body {
         gap: 10px;
         justify-content: center;
     }
-    .soc-link:hover,
-    .soc-link:focus {
+    .soc-link:hover, .soc-link:focus {
         background-color: var(--button-color);
+        color: #FFFFFF;
     }
-    .soc-link:hover .soc-link,
-    .soc-link:focus .soc-link {
-
-    }
+             
         /* ---------TEAM---------- */
         /* ---------FOOTER---------- */
     .footer-logoleft {
