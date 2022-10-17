@@ -64,12 +64,7 @@ body {
         gap: 50px;
     }
     .logo-left {
-        font-family: 'Raleway', sans-serif;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;                   
-        letter-spacing: 0.03em;          
-        color: #2196F3;
+        margin-right: 93px;
     }
     .logo-right {
         font-family: 'Raleway', sans-serif;
@@ -184,6 +179,17 @@ body {
         color: var(--font-grey);
         min-width: 270px;
         }
+        .hero2-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 30px;
+            background-color: #F5F4FA;
+            width: 270px;
+            height: 120px;
+        }
+        
         /* ---------HERO2---------- */
         /* ---------ABOUT---------- */
         .about {
@@ -271,8 +277,49 @@ body {
         background-color: var(--button-color);
         color: #FFFFFF;
     }
+    .team {
+        background-color: #F5F4FA;
+    }
              
         /* ---------TEAM---------- */
+        /*--------Clients------*/
+        .clients {
+        padding-top: 94px;
+        padding-bottom: 94px;
+                
+        }
+        .clients-maintext {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 0.85;
+        letter-spacing: 0.03em;
+        margin-bottom: 50px;
+        text-align: center;
+        }
+        .clients-logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        box-sizing: border-box;
+        border: 1px solid #AFB1B8;
+        border-radius: 4px;
+        width: 170px;
+        height: 92px;
+        left: 615px;
+        top: 2490px;
+        }
+        .clients-list {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        }
+        .clients-item :hover,
+        .clients-item :focus {
+        background-color: var(--button-color);
+        }  
+               
+        /*--------Clients------*/
         /* ---------FOOTER---------- */
     .footer-logoleft {
         font-family: 'Raleway', sans-serif;
@@ -319,16 +366,57 @@ body {
     }
     .ftr-logo {
         margin-bottom: 20px;
+        margin-top: 60px;
+        display: flex;
     }
     .footer-item {
         margin-top: 9px;
         margin-bottom: 9px;
     }
+    .footer-soctext {
+        display: flex;
+        width: 116px;
+        height: 16px;
+        left: 516px;
+        top: 2748px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 0.87;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        
+    }
+    .footer-social {
+        display: flex;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 100px;
+        gap: 10px;
+        justify-content: center;
+                
+    }
+    .footer-link {
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(255, 255, 255, 0.1);
+        }
+        .footer-link :hover,
+        .footer-link :focus {
+            background-color: var(--button-color);
+        }
         /* ---------FOOTER---------- */
         /* ---------INFOBAR---------- */
     .infobar-btn:hover,
     .infobar-btn:focus {
-        color: var(--button-color);
+        background-color: var(--button-color);
+        color: #FFFFFF;
     }
     .infobar-btn {
         font-family: inherit;
