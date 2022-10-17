@@ -261,10 +261,7 @@ body {
         justify-content: center;
         color: #FFFFFF;
     }
-    .soc-icon {
-        fill: currentColor;
-    }
-        
+            
     .soc-list {
         display: flex;
         align-items: center;
@@ -273,9 +270,13 @@ body {
         gap: 10px;
         justify-content: center;
     }
-    .soc-link:hover, .soc-link:focus {
+    .soc-link:hover, 
+    .soc-link:focus {
         background-color: var(--button-color);
-        color: #FFFFFF;
+    }
+    .soc-link:hover .soc-icon
+    .soc-link:focus .soc-icon {
+        fill: #FFFFFF;
     }
     .team {
         background-color: #F5F4FA;
@@ -318,6 +319,7 @@ body {
         .clients-item :focus {
         background-color: var(--button-color);
         }  
+        
                
         /*--------Clients------*/
         /* ---------FOOTER---------- */
@@ -386,7 +388,11 @@ body {
         line-height: 0.87;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #FFFFFF;
+        color: #FFFFFF;        
+    }
+    .footer-soc {
+        display: flex;
+        gap: 10px;
         
     }
     .footer-social {
@@ -405,10 +411,11 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: rgba(255, 255, 255, 0.1);
+        background-color: rgba(255, 255, 255, 0.1);        
         }
-        .footer-link :hover,
-        .footer-link :focus {
+       
+        .footer-socitem :hover,
+        .footer-socitem :focus {
             background-color: var(--button-color);
         }
         /* ---------FOOTER---------- */
@@ -457,6 +464,11 @@ body {
     }
     .projects-item {
         width: calc((100% - 60) / 3);
+    }
+    .projects-item:hover, .projects-item:focus {
+        background: #FFFFFF;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 
+        1px 4px 6px rgba(0, 0, 0, 0.16);
     }    
        
     .projects-toptext {
