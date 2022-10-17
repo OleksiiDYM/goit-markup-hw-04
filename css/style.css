@@ -61,7 +61,8 @@ body {
     .header-list2 {
         display: flex;
         margin-left: auto;
-        gap: 50px;
+        gap: 30px;
+        
     }
     .logo-left {
         margin-right: 93px;
@@ -75,9 +76,7 @@ body {
         color: var(--font-black);
     }
     .header-link:hover, 
-    .header-link:focus, 
-    .header-email:hover, 
-    .header-email:focus {
+    .header-link:focus {
         color: var(--button-color); 
     }
     .header-tel {
@@ -95,7 +94,38 @@ body {
         letter-spacing: 0.02em;        
         color: var(--font-grey);
     }
-        /* ---------HEADER-------- */
+   
+    .hdr-email {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        width: 161px;
+        height: 16px;           
+    }
+    .hdr-email:hover, .hdr-email:focus {
+        color: var(--button-color);
+    }    
+    .hdr-tel {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    .mail-icon {
+        width: 16px;
+        height: 12px;
+        color: var(--font-grey);
+             
+        
+    }
+    .tel-icon {
+        width: 10px;
+        height: 16px;
+        
+        
+    }
+           /* ---------HEADER-------- */
         /* ---------HERO---------- */
         .hero {
             padding-top: 200px;
