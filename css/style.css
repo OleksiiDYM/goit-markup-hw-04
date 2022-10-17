@@ -270,17 +270,22 @@ body {
         gap: 10px;
         justify-content: center;
     }
-    .soc-link:hover, 
-    .soc-link:focus {
+    .soc-icon {
+        fill: #afb1b8;
+    }
+    .soc-link:hover, .soc-link:focus {
         background-color: var(--button-color);
     }
-    .soc-link:hover .soc-icon
+    .soc-link:hover .soc-icon, 
     .soc-link:focus .soc-icon {
+        background-color: var(--button-color);
         fill: #FFFFFF;
     }
+    
     .team {
         background-color: #F5F4FA;
     }
+    
              
         /* ---------TEAM---------- */
         /*--------Clients------*/
@@ -458,8 +463,7 @@ body {
     .projects-list {
         display: flex;
         flex-wrap: wrap;
-        gap: 30px;
-               
+        gap: 30px;             
                 
     }
     .projects-item {
@@ -477,8 +481,7 @@ body {
         line-height: 2;               
         letter-spacing: 0.06em;        
         color: var(--font-black);
-        margin-bottom: 4px;
-        
+        margin-bottom: 4px;       
         
     }
     
