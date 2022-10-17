@@ -314,16 +314,22 @@ body {
         height: 92px;
         left: 615px;
         top: 2490px;
+        color: #afb1b8;
+        }
+        .clients-icon {
+            fill: currentColor;
+        }
+        .clients-logo:hover, .clients-logo:focus {
+            background-color: #FFFFFF;
+            color: var(--button-color);
+            border-color: var(--button-color);
         }
         .clients-list {
         display: flex;
         justify-content: center;
         gap: 30px;
         }
-        .clients-item :hover,
-        .clients-item :focus {
-        background-color: var(--button-color);
-        }  
+         
         
                
         /*--------Clients------*/
