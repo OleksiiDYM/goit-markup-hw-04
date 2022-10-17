@@ -100,7 +100,8 @@ body {
          justify-content: center;
         gap: 10px;
         width: 161px;
-        height: 16px;                  
+        height: 16px;
+        fill: var(--font-grey);                  
     }
     .header-email:focus, .hdr-email:hover {
         color: var(--button-color);
@@ -111,7 +112,7 @@ body {
         gap: 10px;
         width: 142px;
         height: 16px;
-        color: var(--button-color);
+        fill: var(--font-grey);
     }
     .mail-icon {
         width: 16px;
@@ -123,8 +124,8 @@ body {
     }    
     .header-email:hover,
     .header-email:focus {
-            color: var(--button-color);
-        }
+        color: var(--button-color);
+    }
         /* ---------HEADER-------- */
         /* ---------HERO---------- */
     .hero {
