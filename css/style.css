@@ -85,14 +85,14 @@ body {
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;        
-        color: var(--font-grey);
+        color: #757575;
     }
     .header-email {
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;        
-        color: var(--font-grey);
+        color: #757575;
     }
    
     .hdr-email {
@@ -103,29 +103,29 @@ body {
         width: 161px;
         height: 16px;           
     }
-    .hdr-email:hover, .hdr-email:focus {
-        color: var(--button-color);
-    }    
+       
     .hdr-tel {
         display: flex;
         align-items: center;
         justify-content: center;
         gap: 10px;
+        width: 142px;
+        height: 16px;
     }
     .mail-icon {
         width: 16px;
-        height: 12px;
-        color: var(--font-grey);
-             
-        
+        height: 12px;                
     }
+       
     .tel-icon {
         width: 10px;
-        height: 16px;
-        
-        
-    }
-           /* ---------HEADER-------- */
+        height: 16px;             
+    }    
+        .hdr-email:hover,
+        .hdr-email:focus {
+            color: var(--button-color);
+        }
+        /* ---------HEADER-------- */
         /* ---------HERO---------- */
         .hero {
             padding-top: 200px;
