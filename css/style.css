@@ -97,42 +97,42 @@ body {
    
     .hdr-email {
         display: flex;
-        align-items: center;
-        justify-content: center;
+         justify-content: center;
         gap: 10px;
         width: 161px;
-        height: 16px;           
+        height: 16px;                  
     }
-       
+    .header-email:focus, .hdr-email:hover {
+        color: var(--button-color);
+    }       
     .hdr-tel {
         display: flex;
-        align-items: center;
         justify-content: center;
         gap: 10px;
         width: 142px;
         height: 16px;
+        color: var(--button-color);
     }
     .mail-icon {
         width: 16px;
         height: 12px;                
-    }
-       
+    }           
     .tel-icon {
         width: 10px;
         height: 16px;             
     }    
-        .hdr-email:hover,
-        .hdr-email:focus {
+    .header-email:hover,
+    .header-email:focus {
             color: var(--button-color);
         }
         /* ---------HEADER-------- */
         /* ---------HERO---------- */
-        .hero {
+    .hero {
             padding-top: 200px;
             padding-bottom: 200px;
         }
         
-        .hero, .hero-btn {
+    .hero, .hero-btn {
         background-color: #2F303A;
         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero-bg.jpg);
         background-repeat: no-repeat;
