@@ -122,8 +122,8 @@ body {
         width: 10px;
         height: 16px;             
     }    
-    .header-email:hover,
-    .header-email:focus {
+    .hdr-email:hover,
+    .hdr-email:focus {
         color: var(--button-color);
     }
         /* ---------HEADER-------- */
