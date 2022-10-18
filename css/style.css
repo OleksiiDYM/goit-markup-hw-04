@@ -97,18 +97,18 @@ body {
    
     .hdr-email {
         display: flex;
-         justify-content: center;
+        justify-content: center;
+        align-items: center;
         gap: 10px;
         width: 161px;
         height: 16px;
         fill: var(--font-grey);                  
     }
-    .header-email:focus, .hdr-email:hover {
-        color: var(--button-color);
-    }       
+        
     .hdr-tel {
         display: flex;
         justify-content: center;
+        align-items: center;
         gap: 10px;
         width: 142px;
         height: 16px;
@@ -122,10 +122,7 @@ body {
         width: 10px;
         height: 16px;             
     }    
-    .hdr-email:hover,
-    .hdr-email:focus {
-        color: var(--button-color);
-    }
+    
         /* ---------HEADER-------- */
         /* ---------HERO---------- */
     .hero {
@@ -307,6 +304,12 @@ body {
     
     .team {
         background-color: #F5F4FA;
+    }
+    .team-members {
+        background-color: #FFFFFF;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
+        0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
     }
     
              
