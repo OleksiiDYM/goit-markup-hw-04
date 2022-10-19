@@ -440,9 +440,9 @@ body {
         
     }
        
-        .footer-socitem :hover,
-        .footer-socitem :focus {
-            background-color: var(--button-color);
+    .footer-socitem :hover,
+    .footer-socitem :focus {
+        background-color: var(--button-color);
         }
         /* ---------FOOTER---------- */
         /* ---------INFOBAR---------- */
